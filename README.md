@@ -53,7 +53,7 @@ poetry run buscar-duplicados --help
 buscar_duplicados/
 │
 ├── src/
-│   ├── buscar_duplicados/
+│   └── buscar_duplicados/
 │       ├── __init__.py
 │       ├── main.py
 │       ├── cli.py
