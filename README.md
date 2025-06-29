@@ -70,8 +70,8 @@ buscar_duplicados/
 
 ## 🧠 Autor
 
-**Hernán Velázquez**  
-📧 [azhernan@hotmail.com](mailto:azhernan@hotmail.com)  
+**Hernán Velázquez**
+📧 [azhernan@hotmail.com](mailto:azhernan@hotmail.com)
 🔗 [GitHub](https://github.com/azhernan)
 
 ---
