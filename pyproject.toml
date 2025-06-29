@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "buscar-duplicados"
+version = "0.1.0"
+description = ""
+authors = ["Hernan Velazquez <azhernan@hotmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "buscar_duplicados", from = "src" }
+]
+# Omití `requires-python` si querés mantenerlo libre
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+rich = "^14.0.0"
+typer = { version = "^0.16.0", extras = ["all"] }
+tqdm = "^4.67.1"
+
+[tool.poetry.scripts]
+buscar-duplicados = "buscar_duplicados.cli:app"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

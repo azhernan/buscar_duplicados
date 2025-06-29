@@ -1,0 +1,40 @@
+{
+  // settings.json
+  "files.encoding": "utf8",
+  "files.autoGuessEncoding": false,
+  // === PYTHON ===
+  "python.defaultInterpreterPath": ".venv/Scripts/python.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintArgs": [
+    "--disable=C0114,C0115,C0116"
+  ],
+  // === EDITOR ===
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always",
+  },
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "Fira Code, monospace",
+  "editor.fontSize": 14,
+  // === TERMINAL ===
+  "terminal.integrated.fontFamily": "Fira Code, monospace",
+  "terminal.integrated.fontSize": 14,
+  // === GIT ===
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  // === FILES ===
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.venv": true
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.defaultLanguage": "python"
+}
