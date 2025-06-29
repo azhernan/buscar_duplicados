@@ -53,10 +53,11 @@ poetry run buscar-duplicados --help
 buscar_duplicados/
 │
 ├── src/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── cli.py
-│   └── buscar_duplicados.py
+│   ├── buscar_duplicados/
+│       ├── __init__.py
+│       ├── main.py
+│       ├── cli.py
+│       └── buscar_duplicados.py
 │
 ├── .vscode/              # Configuración de entorno en VSCode
 ├── data/                 # Carpeta para datos
